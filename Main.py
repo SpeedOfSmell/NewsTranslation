@@ -7,13 +7,13 @@ auth.set_access_token(Cleaner_Settings.ACCESS_TOKEN_KEY, Cleaner_Settings.ACCESS
 api = tweepy.API(auth)
 
 replacements = {
-    "witness" : "this dude I know",
-    "witnesses" : "these dudes I know",
-    "allegedly" : "kinda probably",
-    "new study" : "tumblr post",
-    "rebuild" : "avenge",
-    "space" : "spaaace",
-    "google glass" : "virtual boy",
+    " witness " : " this dude I know ",
+    " witnesses " : " these dudes I know ",
+    " allegedly " : " kinda probably ",
+    " new study " : " tumblr post ",
+    " rebuild " : " avenge ",
+    " space " : " spaaace ",
+    " google glass " : " virtual boy ",
     "smartphone" : "pokedex",
     "electric" : "atomic",
     "senator" : "elf-lord",
